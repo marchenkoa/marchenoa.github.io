@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Сайт</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- css -->
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">       <!--Логотип и номер -->
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-4"> <img src='image/Logo.png'> </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+            <div align='right'> 
+              <span style='font-family: Arimo ; font-size: 18px;' >+7 (8634) </span>
+              <span style='font-family: Arimo ; font-size: 30px;'> <b>315-323</b> </span>
+            </div> 
+        </div>
+      </div>
+      <!--Меню-->
+      <div class="container" style='background-color:#99cc00;'> 
+          <div id="menu">
+            <ul >
+              <li><a>О Компании </a></li>
+              <li><a>Справочник</a></li>
+              <li><a>Прайс</a></li>
+              <li><a>Услуги</a></li>
+              <li><a>Обратная связь</a></li>
+              <li><a>Контакты</a></li>      
+            </ul>
+          </div>
+
+          <div  align='right' style="margin-top: 10px;">
+            <input type='text'>
+            <input type='submit' value='Поиск'> 
+          </div>     
+      </div> 
+      <div class="container">
+            
+            <!--Карусель -->
+        <div id='fast'>                 
+          <div class="slidershow-container">
+
+            <div class="mySlides fade1">
+               <img src="image/1.jpg" style="width:600px; height:345px;">
+            </div>
+
+            <div class="mySlides fade1">
+              <img src="image/2.jpg" style="width:600px; height:345px;">
+            </div>
+
+            <div class="mySlides fade1">
+              <img src="image/3.jpg" style="width:600px; height:345px;"> 
+            </div>
+    
+            <div class="mySlides fade1">
+                <img src="image/4.jpg" style="width:600px; height:345px;">              
+            </div>
+
+          </div>
+
+          <br>
+        
+        </div>
+
+      <div id="infop">
+        Мы поставляем <br> пшеницу <br> в любую точку мира <br> за короткий срок
+        <div >
+          <input type='submit' value='Узнать подробности ►' id='but'>
+        </div>
+      </div>
+                <!--Переключатели -->
+      <div id='control'>
+        <div style="text-align:center;">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+                            <!--Карусель -->   
+      <script type="text/javascript" src="js/script.js"></script>    
+
+      </div>
+      
+      <div class="container" >
+        <div class="texcen" align='center'>
+          <p >ЧТО МЫ ПРЕДЛАГАЕМ </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
+            <div class="shop">
+              <div id='img1'> </div>
+              <div class="niz" align='center' >
+                <span><a>ПШЕНИЦА ▲</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="shop">
+              <div id='img2'> </div>
+              <div class="niz" align='center' >
+                <span><a>ОВЕС ▲</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
+            <div class="shop">
+              <div id='img3'> </div>
+              <div class="niz" align='center' >
+                <span><a>БОБОВЫЕ ▲</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div class="shop">
+              <div id='img4'> </div>
+              <div class="niz" align='center' >
+                <span><a>КУКУРУЗА ▲</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="texcen" align='center'>
+            <p >НАШИ УСЛУГИ</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" align='center'> 
+            <div class="buton">
+              ПРИЁМКА ПРОДУКЦИИ 
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" align='center'>
+            <div class="buton">
+              ХРАНЕНИЕ ПРОДУКЦИИ
+            </div> 
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" align='center'> 
+            <div class="buton">
+              ОТГРУЗКА ПРОДУКЦИИ
+            </div>
+          </div>
+        </div>
+
+      </div>
+    
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="post"> ПОСТАВКА ЗЕРНОВЫХ</div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="post">ПОСТАВКА КУКУРУЗЫ </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
+            <div class="post">УБОРКА ЗЛАКОВЫХ </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div id='photo1'>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div id='photo2'>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div id='photo3'>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="texte1">
+              Мы занимаемся поставкой зерновых <br> культур с 2003 года. За это время мы<br> успели стать надежными партнерами <br>для многих крупных предприятий.
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="texte1">
+              Мы занимаемся поставкой зерновых <br> культур с 2003 года. За это время мы<br> успели стать надежными партнерами <br>для многих крупных предприятий.
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="texte1">
+                Мы занимаемся поставкой зерновых <br> культур с 2003 года. За это время мы<br> успели стать надежными партнерами <br>для многих крупных предприятий.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class='read' align='center'>
+              Читать
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class='read' align='center'>
+              Читать
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class='read' align='center'>
+              Читать
+            </div>
+          </div>
+        </div>
+     </div>
+     
+     <div class="container">
+        <div id='nadp' align='center'> 
+          <span id='bin1'>Поставка качественной продукции является<br>
+          приоритетным направлением нашей деятельности.<br>
+          Мы заботимся о вас и вашем здоровье <br></span>
+          <span id='bin' align='right'>Бином-Д</span>
+        </div>
+     </div>
+
+      <div class="container">
+        <div id='fot1'>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <p>ЗЕРНОВЫЕ</p> 
+              <ul>
+                  <li>Пшеница</li>
+                  <li>Ячмень</li>
+                  <li>Просо</li>
+                  <li>Овес</li>       
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <p>БОБОВЫЕ</p>
+              <ul >
+                  <li>Горох</li>
+                  <li>Нут</li>
+                  <li>Фасоль</li>
+                  <li>Чечевица</li>      
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+              <p>ДОПОЛНИТЕЛЬНАЯ <br> ИНФОРМАЦИЯ</p>
+              <ul >
+                  <li>Актуальные цены</li>
+                  <li>Новости компании</li>
+                  <li>Действующие акции</li>
+                  <li>Сервисы</li>   
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+               <p>Ростовская область, г.Таганрог,<br> пер.1-й Новый,101</p>
+               <p>e-mail: binom-d@yandex.ru</p>
+               <p>+7 (8634) 315-323, 315-324</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

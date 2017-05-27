@@ -1,0 +1,295 @@
+*{
+
+	margin:0px;
+	padding: 0px;
+}
+
+#menu{
+	height:50px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	padding-top: 10px;
+	float:left;
+}
+
+#menu li{
+    display: inline;
+    margin-left: 20px; 
+    font-size:20px;
+    padding-right:2px;
+    padding-left:16px;
+    font-color:black;
+    font-family: Candara;
+	
+}
+
+#menu a{
+	color:#333300;
+
+}
+
+#infop{
+	font-size: 40px;
+	font-family: Century Gothic;
+	color:black;
+	margin-top: 40px;
+}
+
+#but{
+	font-size:18px;
+	font-family: Century Gothic;
+	height:45px;
+	width: 263px;
+	background:#999999; 
+	color:white;
+}
+
+
+				.slideshow-container{
+	max-width: 630px;
+	position: relative;
+	margin: auto;
+
+}
+
+
+.next{
+	right: 8px;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+	background-color:yellow;
+}
+.mySlides{
+	text-align: center;
+	max-height: 300px;
+}
+.text{
+	color: #f2f2f2;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 90px;
+}
+.dot{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color:0.6s ease;
+
+}
+.active, .dot:hover{
+	background-color:#ffcc00;
+
+}
+.fade1{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration:1s;
+	animation-name:fade;
+	animation-duration:1s;
+}
+/*@-webkit-keyframes fade1{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}*/
+@keyframes fade1{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}
+
+#fast{
+	
+	width: 630px;
+	height: 360px;
+	float: right;
+}
+
+#control{
+	padding-top:15px;
+	height: 45px;
+	background:#333333;
+	margin-top: 20px;
+}
+
+.texcen p{
+	font-family:Century Gothic; 
+	font-size: 26px;
+	margin-top: 10px;
+
+}
+
+.shop{
+	width: 270px;
+	height: 160px;
+}
+
+#img1{
+	width: 270px;
+	height: 100px;
+	background-image: url(image/img1.png);
+	
+}
+#img2{
+	width: 270px;
+	height: 100px;
+	background-image: url(image/img2.png);
+	
+}
+#img3{
+	width: 270px;
+	height: 100px;
+	background-image: url(image/img3.png);
+	
+}
+#img4{
+	width: 270px;
+	height: 100px;
+	background-image: url(image/img4.png);
+	
+}
+
+.niz{
+	background:#333333;
+	width:270px;
+	height: 60px;
+	font-family: Century Gothic;
+	font-size: 24px;
+	padding-top: 10px;
+	z-index: 30;
+}
+.niz:hover{
+	background:#669900;	
+	padding-top:60px;
+	transition:1s;
+	height:160px;
+	position: absolute;
+	bottom:0px;
+}
+
+.niz a{
+	color: white;
+}
+
+.buton{
+	width: 340px;
+	height: 50px;
+	background:#333333;
+	margin-left:15px;
+	color: white;
+	font-size: 22px;
+	font-family: Century Gothic;
+	padding-top: 10px;
+}
+
+.buton:hover{
+	background:#ffcc33;
+	transition: 0.5s;
+}
+
+.post{
+float: left;
+font-family: Century Gothic;
+font-size: 24px;
+margin-top: 30px;
+}
+
+#photo1{
+	width: 350px;
+	height: 170px;
+	background-image: url(image/zer1.png);
+}
+#photo2{
+	width: 350px;
+	height: 170px;
+	background-image: url(image/kyk1.png);
+}
+#photo3{
+	width: 350px;
+	height: 170px;
+	background-image: url(image/comb1.png);
+}
+.texte1{
+	font-family: Calibri Light;
+	font-size: 20px;
+}
+
+.read{
+	border: 3px Solid black;
+	height: 35px;
+	width:110px;
+	margin-top: 10px;
+	font-family: Calibri Bold;
+	font-size: 20px;
+}
+
+.read:hover{
+	border:none;
+	margin-top: 10px;
+	font-family: Calibri Bold;
+	font-size: 20px;
+	color: white;
+	background:#669900;
+	padding-top: 3px;
+}
+
+#nadp{
+	margin-top:30px;
+	height: 175px;
+	border-left: none;
+	border-right: none;
+	border-top: 2px Solid #669900;
+	border-bottom: 2px Solid #669900;
+	font-size: 30px;
+	color:#669900;
+	font-family:'Romana Script',Regular;
+	
+}
+
+
+#bin{
+	font-size: 24px;
+	font-family: Calibri;
+	float: right;
+	margin-right: 160px;
+	color:#669900;
+}
+
+#fot1{
+	background:#cccccc;
+	height: 210px;
+	margin-top: 25px;
+}
+
+#fot1 p{
+	font-family: Calibri Light;
+	font-size: 20px;
+	color: Black;
+	margin-top:20px;
+	margin-left:20px; 
+}
+
+#fot1 li{
+	font-family:Calibri;
+	font-size:18px; 
+	color:#333333;
+	list-style-type: none;
+	margin-left:20px; 
+}
+
+
+@font-face {
+font-family:Romana Script, Regular;
+src: url(fonts/ofont.ru_Romana Script.ttf);
+}
+
+#paraa:hover{
+	background: red;
+	width:20px;
+	height:30px;
+}
